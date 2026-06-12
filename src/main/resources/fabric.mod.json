@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "tutorialmod",
+	"version": "${version}",
+	"name": "tutorialmod",
+	"description": "This is cloudys first mod! followed by kaupenjoe's tutorial !",
+	"authors": [
+		"Cloudy"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/tutorialmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.cloudy.tutorialmod.Tutorialmod"
+		],
+		"fabric-datagen": [
+			"net.cloudy.tutorialmod.TutorialmodDataGenerator"
+		]
+	},
+	"mixins": [
+		"tutorialmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

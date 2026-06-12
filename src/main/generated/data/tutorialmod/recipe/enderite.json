@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "tutorialmod:block_of_enderite"
+  ],
+  "result": {
+    "count": 9,
+    "id": "tutorialmod:enderite"
+  }
+}

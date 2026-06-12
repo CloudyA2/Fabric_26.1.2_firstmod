@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "enderite",
+  "key": {
+    "N": "minecraft:netherite_ingot",
+    "R": "tutorialmod:enderite_wrap"
+  },
+  "pattern": [
+    " R ",
+    "RNR",
+    " R "
+  ],
+  "result": {
+    "id": "tutorialmod:enderite"
+  }
+}

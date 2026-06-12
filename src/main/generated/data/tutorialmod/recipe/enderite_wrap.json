@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "enderite",
+  "key": {
+    "R": "tutorialmod:enderite_nugget"
+  },
+  "pattern": [
+    " RR",
+    "RRR",
+    "RR "
+  ],
+  "result": {
+    "id": "tutorialmod:enderite_wrap"
+  }
+}

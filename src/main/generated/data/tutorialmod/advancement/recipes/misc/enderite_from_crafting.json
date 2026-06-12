@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_enderite_wrap": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorialmod:enderite_wrap"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorialmod:enderite_from_crafting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_enderite_wrap"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorialmod:enderite_from_crafting"
+    ]
+  }
+}

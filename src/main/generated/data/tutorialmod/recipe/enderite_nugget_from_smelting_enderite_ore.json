@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "enderite",
+  "ingredient": "tutorialmod:enderite_ore",
+  "result": {
+    "id": "tutorialmod:enderite_nugget"
+  }
+}
