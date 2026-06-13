@@ -42,7 +42,7 @@ dependencies {
 	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
 
 	//geecko lib
-	modImplementation "com.geckolib:geckolib-fabric-${minecraftVersion}:${geckolibVersion}"
+	implementation "com.geckolib:geckolib-fabric-${minecraftVersion}:${geckolibVersion}"
 	
 }
 
