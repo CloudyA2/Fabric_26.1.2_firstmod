@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_magic_ball": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorialmod:magic_ball"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorialmod:magic_stick"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_magic_ball"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorialmod:magic_stick"
+    ]
+  }
+}

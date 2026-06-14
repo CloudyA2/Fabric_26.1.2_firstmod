@@ -18,6 +18,7 @@ public class ModItems {
     public static final Item ENDERITE = registerItem("enderite", Item::new);
     public static final Item ENDERITE_WRAP = registerItem("enderite_wrap", Item::new);
     public static final Item ENDERITE_NUGGET = registerItem("enderite_nugget", Item::new);
+    public static final Item MAGIC_BALL = registerItem("magic_ball", Item::new);
 
     public static final Item MAGIC_STICK = registerItem("magic_stick", properties -> new MagicItem(properties.durability(200)));
 
@@ -36,6 +37,7 @@ public class ModItems {
             fabricCreativeModeTabOutput.accept(ENDERITE);
             fabricCreativeModeTabOutput.accept(ENDERITE_WRAP);
             fabricCreativeModeTabOutput.accept(ENDERITE_NUGGET);
+            fabricCreativeModeTabOutput.accept(MAGIC_BALL);
         });
     }
 }

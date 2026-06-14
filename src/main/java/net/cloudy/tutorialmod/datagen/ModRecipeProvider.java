@@ -53,6 +53,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("enderite")
                         .save(output, "enderite_from_crafting");
 
+                shaped(RecipeCategory.MISC, ModItems.MAGIC_STICK)
+                        .pattern("I")
+                        .pattern("R")
+                        .define('R', Items.BREEZE_ROD)
+                        .define('I', ModItems.MAGIC_BALL)
+                        .unlockedBy(getHasName(ModItems.MAGIC_BALL), has(ModItems.MAGIC_BALL))
+                        .group("enderite")
+                        .save(output);
+
                 shapeless(RecipeCategory.MISC, ModItems.ENDERITE)
                         .requires(ModBlocks.BLOCK_OF_ENDERITE)
                         .unlockedBy(getHasName(ModBlocks.BLOCK_OF_ENDERITE), has(ModBlocks.BLOCK_OF_ENDERITE))

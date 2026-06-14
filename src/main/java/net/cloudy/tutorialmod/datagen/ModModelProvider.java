@@ -24,6 +24,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateFlatItem(ModItems.ENDERITE, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.ENDERITE_WRAP, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.ENDERITE_NUGGET, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.MAGIC_BALL, ModelTemplates.FLAT_ITEM);
 
 
 

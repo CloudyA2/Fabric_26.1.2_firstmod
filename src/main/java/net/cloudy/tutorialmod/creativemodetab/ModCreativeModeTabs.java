@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BLOCK_OF_ENDERITE);
                         output.accept(ModBlocks.ENDERITE_ORE);
                         output.accept(ModItems.MAGIC_STICK);
+                        output.accept(ModItems.MAGIC_BALL);
 
                     }).build());
 

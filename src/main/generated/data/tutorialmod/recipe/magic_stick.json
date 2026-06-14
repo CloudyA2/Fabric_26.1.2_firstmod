@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "enderite",
+  "key": {
+    "I": "tutorialmod:magic_ball",
+    "R": "minecraft:breeze_rod"
+  },
+  "pattern": [
+    "I",
+    "R"
+  ],
+  "result": {
+    "id": "tutorialmod:magic_stick"
+  }
+}
