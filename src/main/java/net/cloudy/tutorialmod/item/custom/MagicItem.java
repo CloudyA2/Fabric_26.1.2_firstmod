@@ -39,7 +39,7 @@ public class MagicItem extends Item implements GeoItem {
 
     public final MutableObject<GeoRenderProvider> geoRenderProvider = new MutableObject<>();
     private final AnimatableInstanceCache geoCache = GeckoLibUtil.createInstanceCache(this);
-    private static final RawAnimation IDLE_ANIM = RawAnimation.begin().thenLoop("model.animation");
+    private static final RawAnimation IDLE_ANIM = RawAnimation.begin().thenLoop("right_click");
 
     private static final Map<Block, Block> MAGIC_MAP =
             Map.of(

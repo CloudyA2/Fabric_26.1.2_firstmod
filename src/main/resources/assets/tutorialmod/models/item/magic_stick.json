@@ -1,0 +1,156 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "texture_size": [
+    32,
+    32
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        -130.03999999999996,
+        -89.80000000000018,
+        -142.01999999999998
+      ],
+      "translation": [
+        6.75,
+        -5.5,
+        -5.25
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        -166.75,
+        85,
+        -180
+      ],
+      "translation": [
+        -6.75,
+        -5,
+        -3.75
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -20,
+        -78,
+        -3
+      ],
+      "translation": [
+        6,
+        -10,
+        -1.75
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        4,
+        92,
+        -9
+      ],
+      "translation": [
+        -1.5,
+        -9.5,
+        -6.75
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "ground": {
+      "rotation": [
+        -21.079999999999927,
+        -3.5799999999999272,
+        19.039999999999964
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        0,
+        0,
+        30.5
+      ],
+      "translation": [
+        -0.25,
+        -7.75,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        90.17999999999984,
+        0.4699999999997999,
+        59.25
+      ],
+      "translation": [
+        6.5,
+        15.5,
+        -13.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        30.75
+      ],
+      "translation": [
+        0.75,
+        -12.75,
+        -7.25
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "on_shelf": {
+      "rotation": [
+        0,
+        0,
+        23
+      ],
+      "translation": [
+        -1.75,
+        -38,
+        -6.75
+      ],
+      "scale": [
+        0.54,
+        0.54,
+        0.54
+      ]
+    }
+  },
+  "textures": {
+    "particle": "tutorialmod:item/magic_stick"
+  }
+}

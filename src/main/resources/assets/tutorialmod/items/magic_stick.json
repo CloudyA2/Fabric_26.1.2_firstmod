@@ -1,8 +1,9 @@
 {
   "model": {
-    "type": "minecraft:model",
+    "type": "minecraft:special",
     "base": "tutorialmod:item/magic_stick",
     "model": {
       "type": "geckolib:geckolib"
+    }
   }
-}}
+}
