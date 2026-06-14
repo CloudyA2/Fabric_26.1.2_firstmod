@@ -1,5 +1,6 @@
 package net.cloudy.tutorialmod;
 
+import com.geckolib.animatable.SingletonGeoAnimatable;
 import net.cloudy.tutorialmod.block.ModBlocks;
 import net.cloudy.tutorialmod.creativemodetab.ModCreativeModeTabs;
 import net.cloudy.tutorialmod.item.ModItems;
@@ -14,6 +15,7 @@ public class Tutorialmod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		SingletonGeoAnimatable.registerSyncedAnimatable((SingletonGeoAnimatable) ModItems.MAGIC_STICK);
 		ModCreativeModeTabs.registerModCreativeModeTabs();
 
 		ModItems.registerModItems();
